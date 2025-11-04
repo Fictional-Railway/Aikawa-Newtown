@@ -172,3 +172,7 @@ h2 {
   display: flex;
   flex-direction: column; /* 縦に並べる */
 }
+
+.logo-a {
+  text-decoration: none;
+}
