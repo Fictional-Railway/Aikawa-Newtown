@@ -1,0 +1,147 @@
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* ヘッダー */
+.site-header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00695c;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: x-small;
+}
+
+.main-nav li {
+  margin-left: 20px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  color: #00695c;
+}
+
+/* ヒーローエリア */
+.hero {
+  background: url("img/aikawa_town.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  background-color: #607d8b;
+}
+
+.hero-text {
+  background-color: rgba(0,0,0,0.4);
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #00695c;
+  border-bottom: 2px solid #00695c;
+  padding-bottom: 5px;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.news-list .date {
+  color: #777;
+  margin-right: 10px;
+}
+
+.site-footer {
+  background-color: #00695c;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+/* ===== ハンバーガーメニュー ===== */
+
+/* ボタンの初期状態（PCでは非表示） */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: #00695c;
+  cursor: pointer;
+}
+
+/* スマホ表示用 */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    height: auto;
+    background-color: #ffffff;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+  }
+
+  .main-nav.open {
+    transform: translateX(0);
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+
+  .main-nav li {
+    margin: 10px 20px;
+  }
+}
