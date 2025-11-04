@@ -1,5 +1,5 @@
 body {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   margin: 0;
   color: #333;
   background-color: #f9f9f9;
@@ -53,15 +53,15 @@ body {
 
 /* ヒーローエリア */
 .hero {
-  background: url("img/aikawa_town.jpg") center/cover no-repeat;
-  color: white;
+  background: url("./img/愛川1.png") center/cover no-repeat;
+  color: #333;
   text-align: center;
   padding: 120px 20px;
   background-color: #607d8b;
 }
 
 .hero-text {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   display: inline-block;
   padding: 20px 40px;
   border-radius: 10px;
@@ -74,9 +74,10 @@ body {
 }
 
 h2 {
-  color: #00695c;
+  color: #333;
   border-bottom: 2px solid #00695c;
   padding-bottom: 5px;
+  font-weight: 550;
 }
 
 .news-list {
