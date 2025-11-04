@@ -12,8 +12,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  padding-bottom: 5px;
-  padding-top: 2.5px;
+  padding-bottom: 7.2px;
+  padding-top: 4.5px;
 }
 
 .container {
@@ -27,7 +27,7 @@ body {
 
 .logo {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 550;
   color: #00695c;
 }
 
@@ -157,8 +157,8 @@ h2 {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.4rem;
+  font-weight: 500;
   color: #00695c;
 }
 
