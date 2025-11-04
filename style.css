@@ -12,6 +12,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
+  padding-bottom: 5px;
+  padding-top: 2.5px;
 }
 
 .container {
@@ -25,7 +27,7 @@ body {
 
 .logo {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 300;
   color: #00695c;
 }
 
@@ -61,7 +63,7 @@ body {
 }
 
 .hero-text {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.534);
   display: inline-block;
   padding: 20px 40px;
   border-radius: 10px;
@@ -145,4 +147,28 @@ h2 {
   .main-nav li {
     margin: 10px 20px;
   }
+}
+
+/* ロゴ部分 */
+.logo, .logo2 {
+  display: block; /* ブロックにする */
+  margin: 0;
+  text-align: left; /* 左揃え */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #00695c;
+}
+
+.logo2 {
+  font-size: 0.9rem;
+  color: #525252;
+  margin-top: 0px; /* 日本語の下に少し余白 */
+}
+
+.logo-wrap {
+  display: flex;
+  flex-direction: column; /* 縦に並べる */
 }
