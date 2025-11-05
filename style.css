@@ -176,3 +176,9 @@ h2 {
 .logo-a {
   text-decoration: none;
 }
+
+.eng {
+  display: flex;
+  align-items: center;
+  
+}
